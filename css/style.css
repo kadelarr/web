@@ -40,7 +40,7 @@ body{
 .header{
 	background:#0973B2;
 }
-<!--.logo {display:block;text-indent:-9999px;background:url(../images/logo.png) 0 0 no-repeat;width:310px;height:95px}-->
+.logo {display:block;text-indent:-9999px;background:url(../images/logo.png) 0 0 no-repeat;width:310px;height:95px}
 
 
 /*------start-top-nav------*/
