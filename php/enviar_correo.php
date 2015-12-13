@@ -1,18 +1,16 @@
 <?php
 
-if(isset($_POST["userName"])&& !empty($_POST["userName"])&& 
-  isset($_POST["userEmail"])&& !empty($_POST["userEmail"])&&
-  isset($_POST["userMsg"])&& !empty($_POST["userMsg"])){
-    
+$mail="kadelarr@hotmail.com";
+$nombre =$_POST['userName'];
+$email =$_POST['userEmail'];
+$comentario =$_POST['userMsg'];
 
+$message="
+Nombre: ".$nombre."
+Email: ".$email."
+Comentario:".$comentario."
+";
 
-    
-    $nombre= $_POST["userName"];
-    $email= $_POST["userEmail"];
-    $comentario= $-POST["userMsg"];
-
-   mail("kadelarr@hotmail.com", $mail, $nombre, $comentario);
-    echo "correo enviado satisfactoriamente";
-}
-
+if(mail ($mail,"Nuevo mensaje", $message))
+    echo 'mensaje enviado correctamente';
 ?>

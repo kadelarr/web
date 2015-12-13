@@ -61,7 +61,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		      <div class="about-data"> 
 		       <h2>Cuéntanos tus Inquietudes</h2>
 		          <div class="contact-form">
-					     <form method="post" action="contact-post.html" class="left_form">
+					     
+					     <form method="post" action="php/enviar_correo.php" class="left_form">
 					    	<div>
 						    	<span><label>NOMBRE</label></span>
 						    	<span><input name="userName" type="text" class="textbox"></span>
@@ -71,7 +72,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						    	<span><input name="userEmail" type="text" class="textbox"></span>
 						    </div>
 					    </form>
-					    <form class="right_form">
+					    <form action="php/enviar_correo.php" method="post" class="right_form">
 					        <div>					    	
 						    	<span><label>COMENTARIO</label></span>
 						    	<span><textarea name="userMsg"> </textarea></span>
@@ -80,6 +81,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						   		<span><input type="submit" value="Enviar" class="myButton"></span>
 						  </div>
 					    </form>
+					    
 					    <div class="clear"></div>
 				  </div>
 				  <div class="content_bottom">
