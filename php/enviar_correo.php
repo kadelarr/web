@@ -12,6 +12,6 @@ Comentario:".$comentario."
 if(mail ($mail,"Nuevo Mensaje", $message))
     
   
-    header ("Location: services.html");
+    header ("Location: ../contact2.html");
 
 ?>
