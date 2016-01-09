@@ -651,6 +651,12 @@ body{
 	color:#141515;
 	line-height: 1.8em;
 }
+.about-desc .content .about-data .contact-form2 p {
+	font-size:30px;
+	padding:5px 0;
+	color:#141515;
+	line-height: 1.8em;
+}
 /*--blog--*/
 .blog_grid {
 	margin-bottom: 3em;
@@ -1093,7 +1099,7 @@ ul.comment-list .desc {
 }
 .company_address p{
 	color:#0f0e0e;
-	font-size:1.2em;
+	font-size:1 em;
 	padding:5px 0;
 }
 .company_address p span a{
@@ -1353,6 +1359,7 @@ ul.comment-list .desc {
 	.contact-form input[type="text"], .contact-form textarea{
 		width:92%;
 	}
+    
 	.top-header{
 		padding:5px 0;
 	}
