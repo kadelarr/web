@@ -20,7 +20,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	 <div class="header">
 	     <div class="wrap">
 			<div class="top-header">
-				<img id="logo" src="images/logo.PNG">
+				<img id="logo" src="images/logo3.PNG">
 			</div>
 			<!---start-top-nav---->
 			<div class="top-nav">
@@ -31,7 +31,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				        <li><a href="about.html">QUIÉNES SOMOS</a></li>
 				         
 				         <li><a href="services.html">PRODUCTOS Y SERVICIOS</a></li>
-				         <li  class="active"><a href="contact.html">CONTÁCTANOS</a></li>
+				         <li  class="active"><a href="contact.html">CONTÁCTENOS</a></li>
 				     </ul>
 		       </div>
 		       <script>
@@ -60,26 +60,51 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		     <div class="content">	 	
 		      <div class="about-data"> 
 		       <h2>Cuéntanos tus Inquietudes</h2>
+              
 		          <div class="contact-form">
-					     
-					     <form method="post" action="php/enviar_correo.php" >
+	
+					     <form  method="post" action="php/enviar_correo.php" >
 					     <div class="left_form">
 					    	<div>
 						    	<span><label>NOMBRE</label></span>
-						    	<span><input name="userName" type="text" class="textbox"></span>
+						    	<span><input title="Se necesita un nombre" 
+						    	name="userName" 
+						    	type="text" 
+						    	class="textbox" 
+						    	required="required"></span>
 						    </div>
 						    <div>
 						    	<span><label>E-MAIL</label></span>
-						    	<span><input name="userEmail" type="text" class="textbox"></span>
+						    	<span><input title="Se necesita un correo" 
+						    	name="userEmail" 
+						    	type="email" 
+						    	placeholder="nombre@ejemplo.com"
+                                required="required" 
+                                autofocus="autofocus" 
+                                maxlength="50" 
+                                class="textbox" ></span>
+						    </div>
+                       <div>
+						    	<span><label>TELEFONO</label></span>
+						    	<span><input title="Se necesita un número telefónico" 
+						    	name="userTel" 
+						    	type="number" 
+						    	class="textbox" 
+						    	required="required"></span>
 						    </div>
                         </div>
 					    <div class="right_form">
                                 <div>					    	
                                     <span><label>COMENTARIO</label></span>
-                                    <span><textarea name="userMsg"> </textarea></span>
+                                    <span><textarea name="userMsg" > </textarea>
+                                    </span>
                                 </div>
                                <div>
-                                <span><input type="submit" value="Enviar" class="myButton"></span>
+                                <span><input title="Se necesita un comentario"
+                                 type="submit" 
+                                 value="Enviar" 
+                                 class="myButton" 
+                                 required="required"></span>
                               </div>
 						  </div>
 					    </form>
@@ -90,12 +115,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				 	<div class="company_address">
 				     	<h2>LOCALIZACIÓN</h2>
 						    	
-						   		<p>Medellín Antioquia </p>
-						   		<p>Colombia</p>
+				        <p>Medellín Antioquia </p>
+				        <p>Colombia</p>
 				   		<p>Celular: 3012846339</p>
-				   		<p>Whatsapp: 3217826157</p>
-				 	 	<p>Email: <span><a href="mailto:kadelarr@hotmail.com">info(at)mycompany.com</a></span></p>
-				   		<p>Follow on: <span><a href="#">Facebook</a></span>, <span><a href="#">Twitter</a></span></p>
+				   		<p><img src="images/whatsapp.png" alt="" /> 3217826157</p>
+				 	 	<p>Correo: <span><a href="servicioalcliente@ingenieriaycampo.com">servicioalcliente@ingenieriaycampo.com</a></span></p>
+				   		<p>Síguenos en: <span><a href="https://www.facebook.com/ingenieriaycampo/?__mref=message_bubble">Facebook</a></span></p>
 				     </div>
 				       <!--<div class="contact_info">
     	 				<h2>Encuéntranos aquí </h2>
@@ -120,11 +145,11 @@ style="color:#0b0b0b;text-align:left;font-size:13px">Ver mapa más grande</a></s
 			   	<ul>
 			   		<li><a href="index.html">INICIO</a></li>
 			   		<li><a href="about.html">QUIÉNES SOMOS</a></li>
-			   		<li><a href="contact.html">CONTÁCTANOS</a></li>
+			   		<li><a href="contact.html">CONTÁCTENOS</a></li>
 			   	</ul>
 			   	</div>		
 			   	<div class="copy-right">
-					<p>2015 Todos los derechos reservados &copy; .</p>
+					<p>2016 Todos los derechos reservados &copy; .</p>
 				</div>
 			<div class="clear"> </div>
 		</div>
